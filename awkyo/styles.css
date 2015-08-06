@@ -43,4 +43,15 @@
 	text-decoration: none;
 }
 
+@media (max-width: 991px) {
+	.jumbotron {
+		background-position: 40% 50%;
+	}
+
+	.body-message h2 {
+		font-size: 20px;
+	}
+
+}
+
 
