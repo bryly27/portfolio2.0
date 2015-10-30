@@ -5,7 +5,7 @@
 		$(".content").fadeIn(3000);
 
 		//countdown
-		$("#countdown").countdown("2015/09/01", function(results){
+		$("#countdown").countdown("2016/01/01", function(results){
 			$("#months").text(results.strftime("%m"));
 			$("#days").text(results.strftime("%d"));
 			$("#hours").text(results.strftime("%H"));
